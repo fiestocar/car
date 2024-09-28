@@ -17,3 +17,5 @@ var DATA = {
     },
   ],
 };
+
+window.APP_DATA = DATA;

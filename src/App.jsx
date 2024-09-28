@@ -1,10 +1,11 @@
 import { useState } from "react";
-// import reactLogo from './assets/react.svg'
 import "./App.css";
 import { getDataUrl } from "../utils/url";
 
 function App() {
   const [count, setCount] = useState(0);
+
+  console.log(APP_DATA);
 
   return (
     <>
